@@ -1,5 +1,5 @@
 # Name: Jaelynn Bachus
-# Date: 9/17/2026
+# Date: 2026-09-17
 # Course: COMP 163
 # Project 1: Paycheck Calculator
 
