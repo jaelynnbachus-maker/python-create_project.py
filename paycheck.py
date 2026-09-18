@@ -26,3 +26,8 @@
 # Chapters 1 and 2 only. Use variables, input(), arithmetic, type conversion,
 # and print(). Do not use if statements, loops, functions, or imports.
 # Your code runs top to bottom, once.
+
+name = input('Enter employee name: '))
+hours = float(input('Enter hours worked: '))
+hourly = float(input('Enter hourly rate: '))
+rate = float(input('Enter tax rate as a percent: '))
