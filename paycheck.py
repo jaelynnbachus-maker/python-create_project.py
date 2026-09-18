@@ -34,3 +34,7 @@ rate = float(input('Enter tax rate as a percent: '))
 gross = hours * hourly
 tax = gross * (rate / 100)
 net = gross - tax
+print(f'Employee: {name}')
+print(f'Gross pay: ${gross}')
+print(f'Tax withheld: ${tax}')
+print(f'Net pay: ${net}')
