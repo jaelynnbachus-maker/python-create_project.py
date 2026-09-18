@@ -27,7 +27,7 @@
 # and print(). Do not use if statements, loops, functions, or imports.
 # Your code runs top to bottom, once.
 
-name = input('Enter employee name: '))
+name = input('Enter employee name: ')
 hours = float(input('Enter hours worked: '))
 hourly = float(input('Enter hourly rate: '))
 rate = float(input('Enter tax rate as a percent: '))
@@ -35,6 +35,6 @@ gross = hours * hourly
 tax = gross * (rate / 100)
 net = gross - tax
 print(f'Employee: {name}')
-print(f'Gross pay: ${gross}')
+print(f'Gross pay: ${gross:.2f}')
 print(f'Tax withheld: ${tax}')
 print(f'Net pay: ${net}')
