@@ -36,5 +36,5 @@ tax = gross * (rate / 100)
 net = gross - tax
 print(f'Employee: {name}')
 print(f'Gross pay: ${gross:.2f}')
-print(f'Tax withheld: ${tax}')
-print(f'Net pay: ${net}')
+print(f'Tax withheld: ${tax:.2f}')
+print(f'Net pay: ${net:.2f}')
