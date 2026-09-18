@@ -31,3 +31,6 @@ name = input('Enter employee name: '))
 hours = float(input('Enter hours worked: '))
 hourly = float(input('Enter hourly rate: '))
 rate = float(input('Enter tax rate as a percent: '))
+gross = hours * hourly
+tax = gross * (rate / 100)
+net = gross - tax
